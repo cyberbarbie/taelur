@@ -12,5 +12,13 @@
         "taelur alexis",
         "cyberbarbie",
         "taelur"
-    ]
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "cyberbarbie/taelur",
+    "author": {
+        "name": "cyberbarbie",
+        "email": "taeluralexis@gmail.com",
+        "url": "https://twitter.com/TaelurAlexis"
+    }
 }
