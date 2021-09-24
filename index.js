@@ -1,5 +1,8 @@
 #!/usr/bin/env node 
 
+// clear the console
+const clearConsole = require("clear-any-console");
+clearConsole();
 // ^ tells our terminal to execute this script with nodejs 
 console.log(`
 Tae'lur Alexis 
