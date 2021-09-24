@@ -7,6 +7,12 @@ const dim = chalk.dim;
 const blogClr = chalk.hex(`#f5bae1`).bold.inverse
 const ital = chalk.italic
 
+// Alerts
+const success = chalk.green.inverse;
+const warning = chalk.keyword(`orange`).inverse;
+const info = chalk.blue.inverse;
+const error = chalk.red.bold.inverse;
+
 welcome({
     title: `Tae'lur Alexis`,
     tagLine: `Welcome to Cyberbarbie's World!`,
@@ -29,3 +35,9 @@ ${blogClr(` Blog `)}    ${dim(`https://taeluralexis.com`)}
 
 `);
 
+console.log(`
+${success(` SUCCESS `)} Thanks for checking out my CLI.
+${info(` INFO `)} INFO: I'm learning how to automate with Nodejs.
+${warning(` WARNING `)} This is not made for production. It literally servers no purpose for anyone.
+${error(` ERROR` )} This is a work in progress.
+`)
