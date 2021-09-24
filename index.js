@@ -38,6 +38,6 @@ ${blogClr(` Blog `)}    ${dim(`https://taeluralexis.com`)}
 console.log(`
 ${success(` SUCCESS `)} Thanks for checking out my CLI.
 ${info(` INFO `)} INFO: I'm learning how to automate with Nodejs.
-${warning(` WARNING `)} This is not made for production. It literally servers no purpose for anyone.
-${error(` ERROR `)} This is a work in progress.
+${warning(` WARNING `)} This is not made for production. It literally serves no purpose for anyone.
+${error(` ERROR `)} Error! >.< 
 `)
