@@ -1,8 +1,18 @@
 #!/usr/bin/env node 
+const pkgJSON = require("./package.json");
+const welcome = require("cli-welcome");
 
-// clear the console
-const clearConsole = require("clear-any-console");
-clearConsole();
+welcome({
+    title: pkgJSON.name,
+    tagLine: `Welcome to Cyberbarbie's World`,
+    bgColor: `#f5bae1`,
+    color: `#000000`,
+    bold: true,
+    clear: true,
+    description: pkgJSON.description,
+    version: pkgJSON.version,
+})
+
 // ^ tells our terminal to execute this script with nodejs 
 console.log(`
 Tae'lur Alexis 
