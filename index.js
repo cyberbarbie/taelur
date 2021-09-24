@@ -8,6 +8,7 @@ Also known as Cyberbarbie. Software Engineer and developer advocate. Aiming to w
 
 🐦 Twitter: https://twitter.com/TaelurAlexis
 📖 GitHub:  https://github.com/cyberbarbie
+💜 Twitch:  https://twitch.com/cyberbarbie
 💻 Blog:    https://TaelurAlexis.com
 
 `);
