@@ -1,0 +1,7 @@
+{
+    "name": "taelur",
+    "version": "1.0.0",
+    "bin": {
+        "taelur": "index.js"
+    }
+}
